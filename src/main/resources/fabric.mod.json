@@ -14,7 +14,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "org.hoseanrc.ifsv.Addon"
+      "org.hoseanrc.ifsv.IFSVAddon"
     ]
   },
   "mixins": [
