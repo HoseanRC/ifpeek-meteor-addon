@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "IFSV",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "itemframe shulker viewer addon",
+  "description": "an addon which let's you see whats inside a shulker box without taking them out of the itemframe.",
   "authors": [
-    "seasnail"
+    "HoseanRC"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/HoseanRC/IFSV"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "org.hoseanrc.ifsv.Addon"
     ]
   },
   "mixins": [

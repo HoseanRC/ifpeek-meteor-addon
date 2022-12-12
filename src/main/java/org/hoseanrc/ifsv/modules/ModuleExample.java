@@ -1,6 +1,6 @@
-package com.example.addon.modules;
+package org.hoseanrc.ifsv.modules;
 
-import com.example.addon.Addon;
+import org.hoseanrc.ifsv.Addon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 
 public class ModuleExample extends Module {

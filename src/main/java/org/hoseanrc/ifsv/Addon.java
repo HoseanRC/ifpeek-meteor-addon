@@ -1,8 +1,8 @@
-package com.example.addon;
+package org.hoseanrc.ifsv;
 
-import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.ModuleExample;
+import org.hoseanrc.ifsv.commands.CommandExample;
+import org.hoseanrc.ifsv.hud.HudExample;
+import org.hoseanrc.ifsv.modules.ModuleExample;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.commands.Commands;
@@ -38,6 +38,6 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "org.hoseanrc.ifsv";
     }
 }

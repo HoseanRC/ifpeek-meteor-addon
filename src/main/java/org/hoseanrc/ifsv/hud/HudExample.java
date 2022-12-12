@@ -1,6 +1,6 @@
-package com.example.addon.hud;
+package org.hoseanrc.ifsv.hud;
 
-import com.example.addon.Addon;
+import org.hoseanrc.ifsv.Addon;
 import meteordevelopment.meteorclient.systems.hud.HudElement;
 import meteordevelopment.meteorclient.systems.hud.HudElementInfo;
 import meteordevelopment.meteorclient.systems.hud.HudRenderer;
