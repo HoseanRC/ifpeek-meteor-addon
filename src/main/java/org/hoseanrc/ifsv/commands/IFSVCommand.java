@@ -7,8 +7,8 @@ import net.minecraft.command.CommandSource;
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
 public class CommandExample extends Command {
-    public CommandExample() {
-        super("example", "Sends a message.");
+    public IFSVCommand() {
+        super("ifsv", "shows whats inside a shulker on itemframe.");
     }
 
     @Override
