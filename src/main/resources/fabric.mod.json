@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "IFSV",
+  "id": "ifsv",
   "version": "${version}",
   "name": "itemframe shulker viewer addon",
   "description": "an addon which let's you see whats inside a shulker box without taking them out of the itemframe.",
