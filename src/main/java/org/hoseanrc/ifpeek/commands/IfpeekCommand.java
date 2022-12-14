@@ -22,7 +22,7 @@ public class IfpeekCommand extends Command {
     }
 
     private int run(CommandContext<CommandSource> context) {
-        if (mc.targetedEntity == null || !(mc.targetedEntity instanceof ItemFrameEntity itemframe) || !(mc.targetedEntity instanceof GlowItemFrameEntity)) {
+        if (mc.targetedEntity == null || !(mc.targetedEntity instanceof ItemFrameEntity itemframe)) {
             info("you have to point at an itemframe first.");
             return SINGLE_SUCCESS;
         }
