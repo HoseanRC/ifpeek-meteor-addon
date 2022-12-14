@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "ifsv",
+  "id": "ifpeek",
   "version": "${version}",
-  "name": "itemframe shulker viewer addon",
+  "name": "itemframe peek command",
   "description": "an addon which let's you see whats inside a shulker box without taking them out of the itemframe.",
   "authors": [
     "HoseanRC"
@@ -14,7 +14,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "org.hoseanrc.ifsv.IFSVAddon"
+      "org.hoseanrc.ifpeek.IfpeekAddon"
     ]
   },
   "mixins": [

@@ -12,7 +12,7 @@ import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 public class IFSVCommand extends Command {
         private static final ItemStack[] ITEMS = new ItemStack[27];
     public IFSVCommand() {
-        super("ifsv", "shows whats inside a shulker on itemframe.");
+        super("ifpeek", "shows whats inside a shulker on itemframe.");
     }
 
     @Override
