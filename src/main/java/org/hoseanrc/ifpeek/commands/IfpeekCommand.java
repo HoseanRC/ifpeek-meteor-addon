@@ -1,4 +1,4 @@
-package org.hoseanrc.ifsv.commands;
+package org.hoseanrc.ifpeek.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
@@ -9,9 +9,9 @@ import net.minecraft.entity.decoration.ItemFrameEntity;
 import net.minecraft.item.ItemStack;
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
-public class IFSVCommand extends Command {
+public class IfpeekCommand extends Command {
         private static final ItemStack[] ITEMS = new ItemStack[27];
-    public IFSVCommand() {
+    public IfpeekCommand() {
         super("ifpeek", "shows whats inside a shulker on itemframe.");
     }
 

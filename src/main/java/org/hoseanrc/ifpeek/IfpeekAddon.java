@@ -1,12 +1,12 @@
-package org.hoseanrc.ifsv;
+package org.hoseanrc.ifpeek;
 
-import org.hoseanrc.ifsv.commands.IFSVCommand;
+import org.hoseanrc.ifpeek.commands.IfpeekCommand;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.commands.Commands;
 import org.slf4j.Logger;
 
-public class IFSVAddon extends MeteorAddon {
+public class IfpeekAddon extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
 
     @Override
@@ -14,7 +14,7 @@ public class IFSVAddon extends MeteorAddon {
         LOG.info("Initializing itemframe shulker viewer");
 
         // Commands
-        Commands.get().add(new IFSVCommand());
+        Commands.get().add(new IfpeekCommand());
     }
 
     @Override
