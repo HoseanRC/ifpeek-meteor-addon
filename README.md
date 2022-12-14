@@ -1,8 +1,8 @@
-# Meteor Addon Template
+# IFPeek the command!
+Simple addon for meteor client to open the shulker on an item frame without touching it.
 
-A template to allow easy usage of the Meteor Addon API.
-
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+# Donate
+gain without a pain\
+\
+Bitcoin: bc1q87we6strvdln0qz4sca962sxrsj9um7jhk2tm3\
+PayPal: no PayPal... zad.
