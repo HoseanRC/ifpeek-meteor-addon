@@ -6,6 +6,7 @@ import meteordevelopment.meteorclient.systems.commands.Command;
 import meteordevelopment.meteorclient.utils.Utils;
 import net.minecraft.command.CommandSource;
 import net.minecraft.entity.decoration.ItemFrameEntity;
+import net.minecraft.entity.decoration.GlowItemFrameEntity;
 import net.minecraft.item.ItemStack;
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
@@ -21,7 +22,7 @@ public class IfpeekCommand extends Command {
     }
 
     private int run(CommandContext<CommandSource> context) {
-        if (mc.targetedEntity == null || !(mc.targetedEntity instanceof ItemFrameEntity itemframe)) {
+        if (mc.targetedEntity == null || !(mc.targetedEntity instanceof ItemFrameEntity itemframe) || !(mc.targetedEntity instanceof GlowItemFrameEntity)) {
             info("you have to point at an itemframe first.");
             return SINGLE_SUCCESS;
         }
